@@ -14,7 +14,7 @@ Proyek ini adalah implementasi sederhana dari API sosial media yang dibangun men
 
 ## Persyaratan
 
-- PHP >= 7.4
+- PHP >= 8.2
 - Composer
 - Laravel
 - MySQL atau database lain yang didukung oleh Laravel
@@ -25,7 +25,7 @@ Proyek ini adalah implementasi sederhana dari API sosial media yang dibangun men
 1. Clone repositori ini:
 
     ```bash
-    git clone https://github.com/username/social-media-api.git
+    git clone https://github.com/atchx/social-media-api.git
     ```
 
 2. Masuk ke direktori proyek:
@@ -58,13 +58,7 @@ Proyek ini adalah implementasi sederhana dari API sosial media yang dibangun men
     php artisan migrate
     ```
 
-7. (Opsional) Jalankan seeder untuk mengisi database dengan data contoh:
-
-    ```bash
-    php artisan db:seed
-    ```
-
-8. Jalankan server Laravel:
+7. Jalankan server Laravel:
 
     ```bash
     php artisan serve
@@ -74,14 +68,4 @@ Proyek ini adalah implementasi sederhana dari API sosial media yang dibangun men
 
 Untuk menggunakan API, Anda dapat menggunakan Postman atau alat serupa. Impor koleksi Postman dari file `postman_collection.json` untuk mendapatkan akses ke semua endpoint API.
 
-## Kontribusi
 
-Kontribusi selalu diterima! Silakan buka *issue* atau kirimkan *pull request* dengan perbaikan atau fitur baru.
-
-## Lisensi
-
-Proyek ini dilisensikan di bawah [MIT License](LICENSE).
-
----
-
-Pastikan untuk mengganti bagian "username" pada URL git Anda dan menyertakan informasi lain yang relevan sesuai kebutuhan proyek Anda. Juga, pastikan untuk menyertakan informasi spesifik seperti cara penggunaan, persyaratan, dan instruksi instalasi yang dibutuhkan untuk menjalankan proyek dengan benar.
